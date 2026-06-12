@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nasha Nahi, Zindagi - Say No to Drugs, Say Yes to Life. A Drug-Free Punjab awareness campaign.">
+    <title>Nasha Nahi, Zindagi | A Drug-Free Punjab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particles-bg"></canvas>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🌿</span> Nasha Nahi, Zindagi
+            </div>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#impact">Impact</a>
+                <a href="#hope">Hope</a>
+                <a href="#march">March</a>
+                <a href="#pledge" class="nav-cta">Pledge Now</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1 class="hero-title">Nasha Nahi, Zindagi</h1>
+            <h2 class="hero-subtitle">Say No to Drugs, Say Yes to Life</h2>
+            <p class="hero-theme">A Drug-Free Punjab — Our Resolve, Our Future</p>
+            <a href="#pledge" class="btn btn-primary pulse-anim">Take the Drug-Free Pledge</a>
+        </div>
+    </section>
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-heading reveal">
+                <h2>About the Campaign</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="grid cards-grid">
+                <div class="card glass-card reveal delay-1">
+                    <div class="card-icon">⚠️</div>
+                    <h3>The Danger</h3>
+                    <p>Drug abuse destroys not just individuals, but rips apart the fabric of families and societies. It steals potential and clouds the future.</p>
+                </div>
+                <div class="card glass-card reveal delay-2">
+                    <div class="card-icon">🌅</div>
+                    <h3>Our Vision</h3>
+                    <p>A vibrant, drug-free Punjab where every youth is empowered by education, health, and opportunity, leading to a prosperous tomorrow.</p>
+                </div>
+                <div class="card glass-card reveal delay-3">
+                    <div class="card-icon">🤝</div>
+                    <h3>Our Resolve</h3>
+                    <p>We stand united—government, citizens, and communities—to eradicate this menace through awareness, compassion, and strict action.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="impact section-padding parallax" id="impact">
+        <div class="container">
+            <div class="section-heading reveal text-white">
+                <h2>The True Impact</h2>
+                <div class="heading-line line-light"></div>
+            </div>
+            
+            <div class="stats-grid reveal">
+                <div class="stat-box glass-card">
+                    <h3 class="counter" data-target="15000">0</h3>
+                    <p>Youth Counseled</p>
+                </div>
+                <div class="stat-box glass-card">
+                    <h3 class="counter" data-target="850">0</h3>
+                    <p>Villages Reached</p>
+                </div>
+                <div class="stat-box glass-card">
+                    <h3 class="counter" data-target="50000">0</h3>
+                    <p>Pledges Taken</p>
+                </div>
+                <div class="stat-box glass-card">
+                    <h3 class="counter" data-target="120">0</h3>
+                    <p>Rehab Centers Active</p>
+                </div>
+            </div>
+
+            <div class="infographics grid reveal mt-4">
+                <div class="info-card">
+                    <h4>Health</h4>
+                    <p>Severe physical and mental deterioration, leading to chronic diseases and fatal overdoses.</p>
+                </div>
+                <div class="info-card">
+                    <h4>Family</h4>
+                    <p>Emotional trauma, financial ruin, and broken relationships for loved ones.</p>
+                </div>
+                <div class="info-card">
+                    <h4>Education</h4>
+                    <p>Increased dropout rates, loss of focus, and shattered career dreams.</p>
+                </div>
+                <div class="info-card">
+                    <h4>Society</h4>
+                    <p>Rise in crime rates, loss of productive workforce, and community destabilization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hope section-padding" id="hope">
+        <div class="container">
+            <div class="section-heading reveal">
+                <h2>Pathways to Hope & Recovery</h2>
+                <div class="heading-line"></div>
+                <p class="subtitle">Replacing addiction with passion, purpose, and support.</p>
+            </div>
+            <div class="grid hope-grid">
+                <div class="hope-item reveal delay-1">
+                    <div class="hope-img" style="background-image: url('https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="hope-content">
+                        <h3>Sports & Athletics</h3>
+                        <p>Channeling youthful energy into sports builds discipline, physical health, and teamwork.</p>
+                    </div>
+                </div>
+                <div class="hope-item reveal delay-2">
+                    <div class="hope-img" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="hope-content">
+                        <h3>Education</h3>
+                        <p>Empowering minds with knowledge to create sustainable careers and strong decision-making.</p>
+                    </div>
+                </div>
+                <div class="hope-item reveal delay-3">
+                    <div class="hope-img" style="background-image: url('https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=600&q=80')"></div>
+                    <div class="hope-content">
+                        <h3>Family Support</h3>
+                        <p>Unconditional love, open communication, and rehabilitation support at home.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="march section-padding bg-light" id="march">
+        <div class="container">
+            <div class="section-heading reveal">
+                <h2>Community in Action</h2>
+                <div class="heading-line"></div>
+            </div>
+            
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>School Campaigns</h4>
+                        <p>Educating students early about the dangers of substance abuse.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Youth Marches</h4>
+                        <p>Thousands of young leaders walking together for a drug-free state.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Village Panchayats</h4>
+                        <p>Local leaders taking localized oaths to keep their villages clean.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery grid mt-4 reveal">
+                <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80')"></div>
+                <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=600&q=80')"></div>
+                <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=600&q=80')"></div>
+                <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=600&q=80')"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote section-padding parallax" id="quote">
+        <div class="container reveal">
+            <div class="quote-content glass-card">
+                <span class="quote-mark">"</span>
+                <blockquote>
+                    The chains of drugs are too light to be felt until they are too heavy to be broken.
+                </blockquote>
+                <p class="quote-author">- Break the chains today.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pledge section-padding" id="pledge">
+        <div class="container">
+            <div class="pledge-wrapper glass-card reveal">
+                <div class="section-heading">
+                    <h2>Take the Pledge</h2>
+                    <div class="heading-line"></div>
+                    <p>Join thousands of others who have committed to a healthy, vibrant life.</p>
+                </div>
+                
+                <div id="pledge-container">
+                    <form id="pledge-form" class="pledge-form">
+                        <div class="input-group">
+                            <input type="text" id="pledge-name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="pledge-email" placeholder="Enter your email" required>
+                        </div>
+                        <button type="submit" class="btn btn-secondary w-100">I Pledge to Stay Drug Free</button>
+                    </form>
+                </div>
+                
+                <div id="pledge-success" class="pledge-success hidden">
+                    <div class="success-icon">✅</div>
+                    <h3>Thank You, <span id="display-name"></span>!</h3>
+                    <p>Your commitment makes Punjab stronger. Spread the word and inspire others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section-padding text-center" id="cta">
+        <div class="container reveal">
+            <h2>Be the Change You Wish to See</h2>
+            <p>Every voice matters. Stand up against drugs in your community today.</p>
+            <div class="cta-buttons mt-4">
+                <a href="#pledge" class="btn btn-primary">Join the Movement</a>
+                <a href="#" class="btn btn-outline" onclick="alert('Share functionality coming soon!')">Spread Awareness</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>🌿 Nasha Nahi, Zindagi</h3>
+                    <p>A Government of Punjab Awareness Initiative for a healthier, brighter, and drug-free future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Campaign</a></li>
+                        <li><a href="#impact">Impact Statistics</a></li>
+                        <li><a href="#hope">Rehabilitation</a></li>
+                        <li><a href="#pledge">Take Pledge</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Helpline</h4>
+                    <p>📞 Toll-Free: 104</p>
+                    <p>✉️ help@drugfreepunjab.gov.in</p>
+                    <div class="social-icons mt-2">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nasha Nahi, Zindagi Campaign. Say No to Drugs, Say Yes to Life.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
